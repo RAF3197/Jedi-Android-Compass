@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HolaAndroid</string>
+    <string name="title_activity_contenido">Contenido</string>
+    <string name="title_activity_list">Lista</string>
+    <string name="settings">ajustes</string>
+    <string name="logout">Logout</string>
+</resources>
