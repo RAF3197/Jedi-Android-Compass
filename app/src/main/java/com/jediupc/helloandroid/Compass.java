@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 public class Compass extends AppCompatActivity implements SensorEventListener {
 
-    ImageView compass;
+    ImageView compassss;
     float oldHeading = 0f;
     SensorManager mSensorManager;
     Sensor mCompass;
@@ -22,7 +22,16 @@ public class Compass extends AppCompatActivity implements SensorEventListener {
 
     boolean first=true;
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_compass);
+        void onCre
     
+    @Override
+    protected void onCreateee(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_compass);
 
     @Override
     public void onPause(){
