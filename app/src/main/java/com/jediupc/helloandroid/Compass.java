@@ -22,16 +22,7 @@ public class Compass extends AppCompatActivity implements SensorEventListener {
 
     boolean first=true;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_compass);
-
-        compass = findViewById(R.id.compassImage);
-        mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-        mCompass = mSensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
-        head = findViewById(R.id.compassPosition);
-    }
+    
 
     @Override
     public void onPause(){
