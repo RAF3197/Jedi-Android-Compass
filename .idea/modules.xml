@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jedi-Android-Compass.iml" filepath="$PROJECT_DIR$/.idea/modules/Jedi-Android-Compass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Jedi-Android-Compass.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Jedi-Android-Compass.app.iml" />
+    </modules>
+  </component>
+</project>
